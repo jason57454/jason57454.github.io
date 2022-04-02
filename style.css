@@ -71,27 +71,11 @@ a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-}
-
-.nav_bar_scroll {
-  background-color: rgba(166, 175, 189, 0.3) !important;
+          background-color: rgba(166, 175, 189, 0.3) !important;
   background-color: #1111119e !important;
-  -webkit-transition: all 0.5s !important;
-  -o-transition: all 0.5s !important;
-  transition: all 0.5s !important;
 }
 
-.nav_bar_scroll a:hover {
-  color: #03b5d2;
-}
 
-.nav_bar_scroll a:hover {
-  color: #03b5d2;
-}
-
-.nav_bar_scroll i:hover {
-  color: #03b5d2;
-}
 
 .icon_responsive {
   display: none;
@@ -151,11 +135,11 @@ a {
 }
 
 .li:hover {
-  color: black;
+  color: #03b5d2;
 }
 
 .fab:hover {
-  color: black;
+  color: #03b5d2;
 }
 
 li {
