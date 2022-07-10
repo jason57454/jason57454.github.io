@@ -17,4 +17,5 @@ The third section is a carousel made with jQuery
 
 This is the FAQ made with some javascript
 
-![image](https://user-images.githubusercontent.com/102857631/178142841-d8cd4d8b-3e76-4962-804a-a195315b69dd.png)
+https://user-images.githubusercontent.com/102857631/178144611-27b051a9-e286-4586-af23-b7513eba1bb3.mp4
+
