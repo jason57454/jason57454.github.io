@@ -1,6 +1,7 @@
 # Snowblue
 
-This is a NFT website with 6 sections.
+This is a NFT website with 7 sections.
+I chose to show the interesting parts, not all of it.
 
 This is the first section, made with particle.js background.
 
