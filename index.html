@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Snowblue NFT official website" />
     <title>Snowblue : NFT</title>
     <link
       rel="shortcut icon"
@@ -18,30 +19,13 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap"
-      rel="stylesheet"
-    />
     <link
       rel="stylesheet"
       href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
-      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
 
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
-
     <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-
-    <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 
     <link rel="stylesheet" href="all.css" />
   </head>
@@ -49,39 +33,28 @@
   <body>
     <header class="header">
       <nav class="nav_bar">
-        <div id="root">
-          <div id="topnav" class="topnav">
-            <div role="navigation" id="topnav_menu">
-              <div class="main_logo">
-                <img class="logo" src="images/logo.png" />
+        <div id="topnav" class="topnav">
+          <div role="navigation" id="topnav_menu">
+            <div class="main_logo">
+              <img class="logo" src="images/logo.png" />
 
-                <p>SNOWBLUE</p>
-              </div>
-              <a href="#" class="li">Home</a>
-              <a href="#snowblue" class="li">Snowblue</a>
-
-              <a href="#showcase" class="li">Showcase</a>
-              <a href="#roadmap" class="li">Roadmap</a>
-              <a href="#faq" class="li">Faq</a>
-              <a href="#team" class="li">Team</a>
-
-              <li class="nav-item social">
-                <a
-                  href="https://twitter.com/SnowBlueSC"
-                  target="_blank"
-                  class="nav-link"
-                  ><i class="fab fa-twitter"></i
-                ></a>
-              </li>
-              <li class="nav-item social">
-                <a
-                  href="https://discord.com/invite/snowblue"
-                  target="_blank"
-                  class="nav-link"
-                  ><i class="fab fa-discord"></i>
-                </a>
-              </li>
+              <p>SNOWBLUE</p>
             </div>
+            <a href="#" class="li">Home</a>
+            <a href="#snowblue" class="li">Snowblue</a>
+            <a href="#showcase" class="li">Showcase</a>
+            <a href="#roadmap" class="li">Roadmap</a>
+            <a href="#faq" class="li">Faq</a>
+            <li class="nav-item social">
+              <a href="#" target="_blank" class="nav-link"
+                ><i class="fab fa-twitter"></i
+              ></a>
+            </li>
+            <li class="nav-item social">
+              <a href="#" target="_blank" class="nav-link"
+                ><i class="fab fa-discord"></i>
+              </a>
+            </li>
           </div>
         </div>
       </nav>
@@ -112,6 +85,15 @@
           </p>
 
           <div id="countdown">
+            <div class="quantity">
+              <a class="quantity_minus"><span>-</span></a
+              ><input
+                class="quantity_input"
+                id="quantity_input"
+                type="text"
+                value="0"
+              /><a class="quantity_plus"><span>+</span></a>
+            </div>
             <div id="btn-portal">
               <a href="" target="_blank">
                 <button class="btn-web btn-web-sd">MINT</button></a
@@ -127,7 +109,7 @@
         <div id="row">
           <div id="left_part">
             <div id="center_snowblue" class="fade">
-              <h2>SNOWBLUE</h2>
+              <h2 class="title_section">SNOWBLUE</h2>
               <p id="p_first">
                 The 5555 snow blue starts to be built. Holding one of them
                 grants the community to win several gifts.
@@ -192,9 +174,8 @@
       </div>
       <div class="bar" id="place-bar2"></div>
     </section>
-
     <section id="showcase">
-      <h2>SHOWCASE</h2>
+      <h2 class="title_section">SHOWCASE</h2>
       <div class="swiper">
         <div class="swiper-wrapper">
           <div class="swiper-slide">
@@ -221,8 +202,9 @@
     <section id="roadmap">
       <div class="container">
         <div class="container_roadmap">
-          <h2 class="roadmap_title">ROADMAP</h2>
+          <h2 class="title_section">ROADMAP</h2>
           <div class="col_roadmap fade">
+            <div class="line_roadmap"></div>
             <div class="percentage">10%</div>
 
             <p>
@@ -371,7 +353,7 @@
 
       <div class="container_team">
         <div>
-          <h2>Team</h2>
+          <h2 class="title_section">Team</h2>
         </div>
         <div id="row_content_center">
           <div class="define">
@@ -400,7 +382,7 @@
 
           <div class="define">
             <div class="card">
-              <h4>Snow dev</h4>
+              <h4>Ziak</h4>
               <p>Dev lead</p>
               <img src="images/British_Guard.png" />
             </div>
@@ -494,17 +476,21 @@
         retina_detect: true,
       });
       var count_particles, stats, update;
-      stats = new Stats();
-      stats.setMode(0);
-      stats.domElement.style.position = "absolute";
-      stats.domElement.style.left = "0px";
-      stats.domElement.style.top = "0px";
 
       count_particles = document.querySelector(".js-count-particles");
       update = function () {
         console.log("hey nerd");
       };
       requestAnimationFrame(update);
+      $(function () {
+        $(document).scroll(function () {
+          var $nav = $("#topnav_menu");
+          $nav.toggleClass(
+            "nav_bar_scroll",
+            $(this).scrollTop() > $nav.height()
+          );
+        });
+      });
     </script>
 
     <script type="module">
